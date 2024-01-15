@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(190, 215, 236);
+}
+
+.container {
+    display: block;
+    background-color: #3557bd;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 60vh;
+    max-width: 60vh;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.519);
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 27px;
+}
+
+#status {
+    text-align: center;
+    margin: 15px;
+    font-size: 18px;
+}
+
+#box_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box {
+    cursor: pointer;
+    height: 16vh;
+    width: 16vh;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.15s;
+    font-size: 3rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #f33838;
+}
+
+.box:hover {
+    scale: 1.02;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.224);
+}
+
+#reset {
+    margin-top: 25px;
+    display: block;
+    background-color: #3557bd;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    font-size: 17px;
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.519);
+    transition: 0.15s;
+}
+
+#reset:hover {
+    cursor: pointer;
+    scale: 1.02;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.519);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.turn_underline {
+    text-decoration: underline rgb(240, 78, 78);
+    text-decoration-thickness: 4px; 
+    text-underline-offset: 10px;
+}
